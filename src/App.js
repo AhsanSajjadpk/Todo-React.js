@@ -1,16 +1,16 @@
-import './App.css';
-import Form from './components/Form';
-import TodoList from './components/TodoList';
+import "./App.css";
+
+//import components
+import Form from "./components/Form";
+
+// import states
+import TodoState from "./context/todo/TodoState";
 
 function App() {
   return (
-    <div className="App">
-    
- 
- <Form/>
- <TodoList/>
- 
-    </div>
+    <TodoState>
+      <Form />
+    </TodoState>
   );
 }
 

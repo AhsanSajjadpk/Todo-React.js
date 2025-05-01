@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family:   'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-size: 26px; */
+    
+
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+background-color: black;
+}
+
+.work {
+    border: none;
+    width: 60%;
+    height: auto;
+    padding: 40px 40px;
+    background-color: rgb(71, 70, 70);
+    border-radius: 40px;
+    outline: none;
+    box-shadow: 0px 0px 15px white;
+    transition: all ease 1s;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(221, 221, 8);
+}
+
+.row {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 30px;
+    /* padding: 10px; */
+    margin-bottom: 25px;
+    width: 80%;
+    margin: 25px auto;
+    box-shadow: 0px 0px 10px yellow;
+
+}
+
+input {
+
+    border: none;
+    /* border: 2px solid black; */
+    outline: none;
+    background: none;
+    padding: 20px;
+    font-size: 28px;
+    color: white;
+    font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+    width: 80%;
+    cursor: context-menu;
+}
+
+#btn {
+    border: none;
+    width: 20%;
+    outline: none;
+    padding: 12px 30px;
+    background-color: rgb(247, 247, 172);
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#btn:hover {
+
+    background-color: yellow;
+
+}
+.listTask{
+    font-size: 24px;
+    list-style: bullet;
+}
